@@ -1,4 +1,4 @@
-name: Build
+name: Wkwk
 on:
   push:
     branches:
@@ -14,4 +14,4 @@ jobs:
         with:
           java-version: 11
       - name: Build the app
-        run: ./gradlew build
+        run: ./gradlew assembleDebug

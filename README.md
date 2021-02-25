@@ -1,1 +1,1 @@
-![example workflow](https://github.com/ErickSumargo/GithubActionsSample/actions/workflows/build.yaml/badge.svg)
+[![](https://github.com/ErickSumargo/GithubActionsSample/actions/workflows/build.yaml/badge.svg)]
