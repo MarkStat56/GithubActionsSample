@@ -9,9 +9,5 @@ jobs:
     steps:
       - name: Checkout project
         uses: actions/checkout@v2
-      - name: Set up JDK environment
-        uses: actions/setup-java@v1.4.3
-        with:
-          java-version: 11
       - name: Build the app
         run: ./gradlew assembleDebug
