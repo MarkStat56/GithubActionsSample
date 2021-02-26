@@ -13,6 +13,7 @@ jobs:
         run: |
           ./gradlew testDebugUnitTest
           ./gradlew createDebugCoverageReport
+      - name: Upload cov
         uses: codecov/codecov-action@v1
         with:
           flags: unittests # optional
